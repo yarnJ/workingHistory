@@ -1,0 +1,191 @@
+{
+  "main": {
+    "name":"I am James",
+    "description":"I am a web development engineer and I Come up with the agile approach and encourage the great pasture.",
+    "image":"profilepic.jpg",
+    "bio":"A software developer with great experiences, always prioritize inovation and trustworthy.",
+    "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
+    "email": "yarnj33@gmail.com",
+    "phone": "+12137698518",
+    "github":"https://github.com/nordicgiant2/react-nice-resume",
+    "project":"https://rutube.ru",
+    "address":{
+      "street":"Bayfield St",
+      "city":"Richmond Hill",
+      "state":"Ontario",
+      "zip": "L4C 3Y2"
+    },
+    "website": "http://www.timbakerdev.com",
+    "resumedownload":"https://www.linkedin.com/in/james-yarn-308780227/",
+    "social":[
+      {
+        "name":"facebook",
+        "url":"https://github.com/nordicgiant2/react-nice-resume",
+        "className":"fa fa-facebook"
+      },
+      {
+        "name":"twitter",
+        "url":"http://twitter.com",
+        "className":"fa fa-twitter"
+      },
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/tim-baker-8420009a/",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"instagram",
+        "url":"http://instagram.com/tbaker_x",
+        "className":"fa fa-instagram"
+      },
+      {
+        "name":"github",
+        "url":"https://github.com/nordicgiant2/react-nice-resume",
+        "className":"fa fa-github"
+      }
+    ]
+  },
+  "resume":{
+    "skillmessage":"",
+    "education":[
+      {
+        "school":"Technical Colleges in Canada?",
+        "degree":"Computer Engineering",
+        "graduated":"May 2017",
+        "description":"My education at CCT encouraged grow my passions for web develop and programming. The course includes computer architecture, operating systems, procedural and process - oriented programming, programming microprocessors, programming architecture, client-server systems, visual programming tools, computer networks, organization of databases. I came up with the agile approach for my develop team and will carry the same dedication and focus into future commitments."
+      }
+    ],
+    "work":[
+      {
+        "company":"EBD",
+        "title":"Frontend Web Developer ",
+        "years":"Mar 2016 - Present",
+        "description":"Worked with various clients to build websites ranging from start-ups to enterprises. Oered consulting to improve development practice and processes. Tackled challenging problems and implemented solutions with the overall software quality in mind. Stack includes React, Redux, Firebase, Typescript, Flow and other common React libraries."
+      },
+      {
+        "company":"The Medical Affairs Company (TMAC) Contract Full-time",
+        "title":"Senior Frontend Developer",
+        "years":"Jun 2016 - Dec 2021",
+        "description":""
+      },
+      {
+        "company": "Central Intelligence Agency",
+        "title": "Full-stack Developer",
+        "years": "Apr 2019 - Sep 2019",
+        "description": "Multi-tenant application, allowing multiple organisations to register and get access to their own area. Design and build databases for the management of patients and the medical records in MonogoDB database. Developed website with Node JS Framework and React.js"
+      },
+      {
+        "company": "Brainhub",
+        "title": "Web Application Developer",
+        "years": "Feb 2019 - May 2019",
+        "description": "My team consisted of front-end and back-end QA Engineers, Architects, UI/UX Designers, Product Owners, and Business Analysts"
+      },
+      {
+        "company": "ThinkPalm Technologies Pvt. Ltd",
+        "title": "Web Application Developer",
+        "years": "Jul 2018 - Nov 2018",
+        "description": "Supported the migration of an existing application to React js/Nuxt.js. Developed a methodology to gradually transition legacy a jQuery application to React/Redux. Implemented payment UI and API integration for both depositing funds and withdrawals. Found and fixed various rendering performance issues in the app."
+      },
+      {
+        "company": "Clurgo",
+        "title": "Web Developer",
+        "years": "Jan 2018 - Jul 2018",
+        "description": "I'v finished this project using React js for the frontend and Node js and My SQL for the backend and delivered on time with my team members."
+      },
+      {
+        "company": "Opus",
+        "title": "Assistant Team Manager",
+        "years": "Nov 2016 - Nov 2016",
+        "description": "As a assistant team manager, I led a push to improve team dynamic and drove the whole process of development."
+      },
+      {
+        "company": "Arsaga Partners, Inc.",
+        "title": "Web Developer",
+        "years": "Feb 2017 - Aug 2017",
+        "description": "Collaborated in the communication with clients, and worked more than 40 hrs per week. Re-building UI/UX with React js."
+      }
+    ],
+    "skills":[
+      {
+        "name":"NodeJs",
+        "level":"90%"
+      },
+      {
+        "name":"VueJs",
+        "level":"70%"
+      },
+      {
+        "name":"ReactJs/Redux-Thunk/Saga",
+        "level":"90%"
+      },
+      {
+        "name":"Reusable Responsive",
+        "level":"100%"
+      },
+      {
+        "name":"GatsByJs",
+        "level":"80%"
+      },
+      {
+        "name":"Javascript",
+        "level":"100%"
+      },
+      {
+        "name":"Representational State Transfer (REST)",
+        "level":"80%"
+      }
+    ]
+  },
+  "portfolio":{
+    "projects": [
+      {
+        "title":"Track All Your Investments",
+        "category":"",
+        "image":"portfolio1.png",
+        "url":"https://www.moneyminx.com"
+      },
+      {
+        "title":"Original Delfoo Food",
+        "category":"",
+        "image":"portfolio2.png",
+        "url":"https://delfoo.com"
+      },
+      {
+        "title":"Creating infrastructure",
+        "category":"",
+        "image":"portfolio-3.webp",
+        "url":"https://tripsafe.co"
+      },
+      {
+        "title":"Social Website",
+        "category":"",
+        "image":"portfolio-4.webp",
+        "url":"https://rutube.ru"
+      },
+      {
+        "title":"Hotel booking site",
+        "category":"",
+        "image":"portfolio-6.webp",
+        "url":"https://796ketch.com"
+      },
+      {
+        "title":"Room Reservation Landing Website",
+        "category":"",
+        "image":"potfolio7.webp",
+        "url":"https://www.stone-villas.com"
+      },
+      {
+        "title":"swimming pools",
+        "category":"",
+        "image":"portfolio8.webp",
+        "url":"https://waterpools.gr"
+      },
+      {
+        "title":"TROJANS WELL",
+        "category":"",
+        "image":"portfolio9.webp",
+        "url":"https://www.twec.ph"
+      }
+    ]
+  }
+}
