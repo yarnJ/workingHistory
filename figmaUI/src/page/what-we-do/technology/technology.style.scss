@@ -1,0 +1,21 @@
+@import '../../../style//abstract/variable';
+
+.technology-side {
+  padding-top: 22rem;
+  p {
+    color: var(--color-red);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 45px;
+  }
+
+  h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 62px;
+    text-align: center;
+    color: var(--color-gray-1);
+  }
+}

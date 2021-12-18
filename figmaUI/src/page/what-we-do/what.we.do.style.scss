@@ -1,0 +1,15 @@
+.what-we-do {
+  padding-top: 120px;
+}
+
+@media only screen and (max-width: 1220px) {
+  .technology-side {
+    padding-top: 12rem;
+  }
+}
+
+@media only screen and (max-width: 880px) {
+  .technology-side {
+    padding-top: 4rem;
+  }
+}

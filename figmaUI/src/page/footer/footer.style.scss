@@ -1,0 +1,102 @@
+@import '../../style/abstract/variable';
+@import '../../style/abstract/mixin';
+
+.footer-side {
+  background: var(--color-gray-1);
+  padding: 6rem 0 6rem 0;
+
+  .container {
+    @include respond(ml) {
+      max-width: 100%;
+    }
+  }
+
+  .col-md-4 {
+    @include respond(ml) {
+      width: 100%;
+    }
+  }
+ }
+
+.copyright-area {
+  text-align: left;
+  padding-top: 1rem;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 31px;
+  color: #D9DBE1;
+
+  @include respond(ml) {
+    text-align: center;
+  }
+}
+
+.footer-category-item-area {
+  color: white;
+  text-align: left;
+
+  li {
+    display: block;
+    text-align: left;
+    font-weight: 300;
+    font-size: 14px;
+    color: #ffffff9e;
+  }
+  
+  p {
+    font-weight: 700;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 25px;
+  }
+
+  ul {
+    padding-left: 0;
+    line-height: 2rem;
+  }
+}
+
+.form-control {
+  background-color: initial !important;
+  border-radius: 8px!important;
+  border-right: none!important;
+  border-radius: 8px 0 0 8px!important;
+}
+
+.input-group-text {
+  background-color: inherit!important;
+  border-left: none!important;
+  border-radius: 0 8px 8px 0!important;
+}
+
+.card-footer {
+  background-color: inherit !important;
+  border: none !important;
+}
+
+.footLogo-area {
+  text-align: left;
+
+  @include respond(ml) {
+    text-align: center;
+  }
+}
+
+.image-area {
+  text-align: left;
+  padding: 1rem 15rem 0 0;
+
+  @include respond(ml) {
+    text-align: center;
+    padding-right: 0;
+    padding-bottom: 2rem;
+  }
+
+  .col-md-3 {
+    @include respond(ml) {
+      width: 25%;
+    }
+  }
+ }
+

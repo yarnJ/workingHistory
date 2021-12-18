@@ -1,0 +1,73 @@
+@import '../../../style/abstract/mixin';
+@import '../../../style/abstract/variable';
+
+.environment-side {
+  background:  var(--color-white);
+  padding-top: 6rem;
+}
+
+.environment-summary-area {
+  h4 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 45px;
+    text-transform: uppercase;
+    color: var(--color-red);
+    padding-top: 2rem;
+  }
+
+  h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 62px;
+    text-align: center;
+    color: var(--color-gray-1);
+    padding-top: 2rem;
+  
+    span {
+      color: var(--color-red);
+    }
+  }
+
+  p {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 31px;
+    text-align: center;
+    color: var(--color-gray-2);
+    padding: 2rem 22rem 0 22rem;
+
+    @include respond(mm) {
+      padding: 2rem 1rem 0 1rem;
+    }
+  }
+}
+
+.environment-item {
+  padding: 3rem 26rem 0 26rem;
+
+  @include respond(mm) {
+    padding: 3rem 4rem 0 4rem;
+  }
+
+  h3 {  
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: var(--color-gray-1);
+    padding-top: 1rem;
+  }
+
+  p {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 31px;
+    text-align: center;
+    color: var(--color-gray-2);
+  }
+}

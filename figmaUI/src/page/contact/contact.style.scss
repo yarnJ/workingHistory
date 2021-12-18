@@ -1,0 +1,78 @@
+@import '../../style/abstract/mixin';
+@import '../../style/abstract/variable';
+
+.contact-side {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+
+  .container {
+    .col-md-5, .col-md-7 {
+      @include respond(ml) {
+        width: 100%;
+      }
+    }
+  }
+}
+
+.contact-glad-area {
+  text-align: left;
+
+  @include respond(ml) {
+    text-align: center;
+  }
+
+  h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 5rem;
+    line-height: 5rem;
+    color: var(--color-gray-1);
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+    span {
+      color: var(--color-red);
+    }
+  }
+
+  p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    color: var(--color-gray-2);
+    width: 22rem;
+    padding-top: 2rem;
+    line-height: 2rem;
+  }
+}
+
+.contact-social-area {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 13rem 0 0;
+
+  @include respond(ml) {
+    padding: 0;
+  }
+}
+
+.contact-submit-area {
+  text-align: left;
+
+  label {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1rem;
+    line-height: 2rem;
+    color: #5A5766;
+  }
+}
+
+.button-area {
+  padding-top: 2rem;
+}
+
+.input-area {
+  padding-top: 1rem;
+}

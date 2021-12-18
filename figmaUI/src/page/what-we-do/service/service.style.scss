@@ -1,0 +1,85 @@
+@import '../../../style/abstract/mixin';
+
+.service-side {
+  padding-top: 8rem;
+
+  @include respond(sl) {
+    padding-top: 3rem;
+  }
+
+  .col-md-6 {
+    @include respond(sl) {
+      width: 100%;
+    }
+  }
+}
+
+.service-area {
+  padding: 0 7rem 0 19rem;
+  text-align: left;
+
+  @include respond(xm) {
+    padding: 0 3rem 0 3rem;
+  }
+
+  h1 {
+    color: #48435C;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 62px;
+  }
+
+  h5 {
+    color: #5A5766;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 31px;
+    order: 1;
+    flex-grow: 0;
+    margin: 29px 0px;
+  }
+}
+
+.service-image-area {
+  background-image: url("../../../assets/homepage/what-we-do/service/image4.svg");
+  height: 180%;
+  background-size: 145% 100%;
+
+  @include respond(sl) {
+    display: none;
+  }
+}
+
+.service-image1 {
+  float: left;
+  position: absolute;
+  margin-top: -106px;
+  margin-left: -500px;
+  width: 500px;
+}
+
+.service-image2, .service-image5 {
+  position: absolute;
+  margin-top: 76px;
+  margin-left: -178px;
+  width: 450px;
+}
+
+.service-image2 {
+  margin-left: -304px;
+  margin-top: -10px;
+}
+
+.service-image3 {
+  position: absolute;
+  margin-top: 400px;
+  margin-left: -500px;
+  width: 500px;
+}
+
+.service-image1, .service-image3, .service-image2 {
+  @include respond(sx) {
+    display: none;
+  }
+} 

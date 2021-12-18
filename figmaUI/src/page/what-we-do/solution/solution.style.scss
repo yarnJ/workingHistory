@@ -1,0 +1,96 @@
+@import '../../../style/abstract/mixin';
+@import '../../../style/abstract/variable';
+
+.solution-side {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+
+  .container {
+    @include respond(mm) {
+      max-width: 100%;
+    }
+  }
+}
+
+.solution-description-area {
+  h5 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 45px;
+    text-transform: uppercase;
+    color: var(--color-red);
+  }
+
+  h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 62px;
+    text-align: center;
+    color: var(--color-gray-1);
+    padding-top: 3rem;
+
+    @include respond(mm) {
+      font-size: 45px;
+    }
+  }
+
+  span {
+    color: var(--color-red);
+  }
+
+  p {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 31px;
+    text-align: center;
+    color: var(--color-gray-2);
+    padding: 2rem 19rem 0 19rem;
+
+    @include respond(mm) {
+      padding: 2rem 1rem 0 1rem;
+    }
+  }
+}
+
+.solution-code-item-area {
+  text-align: left;
+
+  @include respond(ml) {
+    text-align: center;
+  }
+
+  h4 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: var(--color-gray-1);
+  }
+}
+
+.solution-item p {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 31px;
+  color: var(--color-gray-2);
+  padding: 1rem 00 0;
+  width: 400px;
+}
+
+.solution-code-description-area {
+  padding-top: 6rem;
+
+  @include respond(ml) {
+    padding-top: 2rem;
+  }
+
+  .col-md-6 {
+    @include respond(ml) {
+      width: 100%;
+    }
+  }
+}
