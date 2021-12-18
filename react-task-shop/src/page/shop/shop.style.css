@@ -1,0 +1,14 @@
+.previewCollection {
+  border: 1px solid;
+  width: 40%;
+  margin: 58px;
+}
+
+.collection-overview-side {
+  display: flex;
+}
+
+.collection-category-item-area {
+  display: flex;
+  justify-content: space-around;
+}

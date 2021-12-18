@@ -1,0 +1,33 @@
+.title {
+  font-weight: bold;
+    font-size: 23px;
+}
+
+.preview {
+  display: inline-flex;
+}
+
+.itemName {
+  padding: 10px;
+  border: 1px solid;
+  margin: 10px;
+  width: 260px;
+  height: 300px;
+}
+
+.addCart {
+  opacity: 0.7;
+  display: none;
+}
+
+.itemName:hover {
+  .addCart {
+    display: flex;
+  }
+}
+
+.buttonArea {
+  margin-top: 220px;
+  display: flex;
+  justify-content: center;
+}

@@ -1,0 +1,35 @@
+.checkout-item {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  border-bottom: 1px solid;
+  height: 40px;
+  align-items: center;
+
+  .imgUrl, .name, .quantity, .price, .remove-button {
+    text-transform: capitalize;
+    text-align: center;
+  }
+
+  .remove-button {
+    width: 9%;
+  }
+
+  .name {
+    width: 26%;
+  }
+
+  .imgUrl {
+    width: 23%;
+  }
+  .quantity {
+    width: 23%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .price {
+    width: 23%;
+  }
+}
+
