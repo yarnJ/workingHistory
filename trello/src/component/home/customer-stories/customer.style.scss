@@ -1,0 +1,67 @@
+.customer-side {
+  background-color: #e6fcff;
+  padding-right: 23.5rem;
+  padding-left: 23.5rem;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 4rem;
+}
+
+.carousel-item {
+  display: flex;
+  justify-content: space-evenly;
+  float: none;
+}
+
+ .customerad-area {
+  width: 25%;
+ }
+
+ .customerDes-area {
+  padding: 0 1rem 0 4rem;
+ }
+
+ h5, h3 {
+  text-transform: uppercase;
+  color: #091e42c2;
+ }
+
+ h3 {
+   margin-top: 0;
+ }
+
+ h5 {
+  margin-bottom: 5px;
+  font-weight: 500;
+  margin-top: 0;
+ }
+
+ .description-area {
+   font-size: 2rem;
+   color: #172b4d;
+   height: 200px;
+ }
+
+ .carousel-button-side {
+  border-top: 5px solid #172b4d;
+  margin-top: 2rem;
+ }
+
+ .carousel-button-area {
+  margin-top: 1rem;
+  display: flex;
+ }
+
+ .dot {
+   color: #a5adba;
+ }
+ 
+ .carousel-progress-side {
+  display: flex;
+  font-size: 23px;
+  padding-left: 1rem;
+ }
+
+ .svg-area {
+  float: left;
+ }

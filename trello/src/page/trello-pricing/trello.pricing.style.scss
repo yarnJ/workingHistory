@@ -1,0 +1,196 @@
+@import '../../../src/style/abstract/variable';
+@import '../../../src/style/abstract/mixin';
+
+.thstyle {
+  border-bottom: 1px solid rgb(235, 236, 250);
+  text-align: center;
+  width: auto;
+}
+
+.explore-area .col-md-3 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.trello-pricing-intro-area {
+  background: linear-gradient(var(--color-black2), var(--color-black3)) no-repeat;
+  color: var(--color-black1);
+  -webkit-box-align: stretch;
+  align-items: stretch;
+  -webkit-box-pack: start;
+  justify-content: flex-start;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5rem 34rem 3rem;
+  position: relative;
+  text-align: center;
+
+  h3 {
+    font-size: 2.75rem;
+    line-height: 1.18182;
+    color: rgb(9, 30, 66);
+  }
+}
+
+.explore-item-payment-area {
+  h5 {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    margin: 0px;
+    color: var(--color-black1);
+    font-weight: 750;
+  }
+
+  h2 {
+    font-size: 3rem;
+    line-height: 1;
+    margin-bottom: 0.5rem;
+    padding-top: 2rem;
+  }
+
+  h6 {
+    color: rgb(122, 134, 154);
+    font-size: 0.75rem;
+    margin: 0px;
+  }
+
+  p {
+    font-size: 1rem;
+    margin-bottom: 0px;
+    padding-top: 2.5rem;
+
+    span {
+      color: rgb(9, 30, 66);
+      font-size: 1.5rem;
+      font-weight: 500;
+      margin: 0px 0.25rem;
+      padding: 0px;
+      text-align: center;
+      width: 4.5rem;
+      text-decoration: underline;
+    }
+  }
+
+  span {
+    font-size: 1rem;
+  }
+
+  .explore-payment-range-area {
+    input {
+      margin-top: 1.75rem;
+      width: 100%;
+    }
+  }
+}
+
+.explore-item-custom-area {
+  h5 {
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.2;
+    color: var(--color-black1);
+  }
+
+  .explore-custom-content-area {
+    h6 {
+      margin: 0px 0px 0.5rem;
+      position: relative;
+      font-size: 1rem;
+      list-style-type: disc;
+      font-weight: 400;
+      line-height: 1.5;
+      color: var(--color-black1);
+    }
+  }
+}
+
+.explore-item-area {
+  border: 1px solid var(--color-gray-1);
+  padding: 2rem 1rem;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  height: 60rem;
+}
+
+.explore-item-custom-side {
+  padding-top: 3rem;
+}
+
+.explore-payment-deacription-area {
+  height: 26rem;
+}
+
+.trello-pricing-compare-side {
+  text-align: center;
+  padding-top: 3rem;
+
+  .search-bar-side {
+    .ioDTnz {
+      background-image: url("../../assest/trello-pricing/searchbar.svg");
+      background-color: var(--color-white-4);
+      background-repeat: no-repeat;
+      background-position: 1rem center;
+      background-size: 1rem 1rem;
+      border: 1px solid var(--color-white-5);
+      border-radius: 0.25rem;
+      color: var(--color-black1);
+      font-size: 1rem;
+      max-width: 100%;
+      padding: 0.5rem 0.45rem 0.5rem 2.5rem;
+      width: 22rem;
+    }
+  }
+  
+  h2 {
+    color: var(--color-black1);
+    font-weight: 600;
+    font-size: 2.25rem;
+    line-height: 1.33333;
+  }
+}
+
+.trello-compare-description-area {
+  table {
+    border-collapse: collapse;
+  }
+
+  .cGgHnD {
+    margin-top: 2.5rem;
+    table-layout: fixed;
+    width: 100%;
+
+    th {
+      padding: 1rem 0px;
+      text-transform: uppercase;
+      font-weight: 800;
+      color: rgb(9 30 66 / 75%);
+      font-size: 0.8rem;
+
+      @extend .thstyle;
+
+      &:first-of-type {
+        width: 37%;
+      }
+    }
+
+    td {
+      font: "";
+      @extend .thstyle;
+      border-right: 1px solid rgb(235, 236, 250);
+      font-size: 1rem;
+      padding: 1.25rem 0px;
+      vertical-align: middle;
+
+      &:first-of-type {
+        padding-right: 1rem;
+        text-align: left;
+        width: 37%;
+      }
+    }
+  }
+
+  .fa-check {
+    color: var(--color-green-2);
+  }
+}

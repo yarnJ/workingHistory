@@ -1,0 +1,22 @@
+.hero-side {
+  text-align: left !important;
+  padding-top: 7rem !important;
+  padding-bottom: 5rem !important;
+  padding-right: 20%;
+  padding-left: 20%;
+  margin-right: auto;
+  margin-left: auto;
+  align-items: center !important;
+  background: #eae6ff;
+  background: -webkit-gradient(linear, left bottom, left top, from(#fff), to(#eae6ff));
+  background: linear-gradient(
+  0deg, #fff, #eae6ff 100%);
+  overflow-x: hidden;
+  display: flex;
+  justify-content: center;
+  overflow-y: hidden;
+}
+
+.hero-description {
+  color: #a5adba;
+}    

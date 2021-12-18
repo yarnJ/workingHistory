@@ -1,0 +1,32 @@
+.feature-side {
+  padding-bottom: 5rem !important;
+  padding: 0px 20% 0 20%;
+}
+
+.feature-item-side {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.img-side {
+  width: 440px;
+}
+
+.feature-item-area {
+  padding: 0 3rem 0 3rem;
+  -webkit-transition: all .25s;
+  transition: all .25s;
+}
+
+h4 {
+  cursor: pointer;
+  padding-left: 3rem;
+  position: relative;
+  color: inherit;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
